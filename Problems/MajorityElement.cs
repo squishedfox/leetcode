@@ -1,4 +1,5 @@
 public class Solution {
+    // see https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
     public int MajorityElement(int[] nums) {
         var majorityDictionary = new Dictionary<int, int>();
         var maxElementNum = int.MinValue;
